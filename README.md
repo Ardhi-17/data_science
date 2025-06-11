@@ -61,6 +61,7 @@ Contoh 5 Baris Pertama:
 |               2 |                39 |                  1 |   8014 | … |  0.79 | Graduate |
 
 **Rangkuman Dataset**
+
     - Jumlah baris: 4.424
     - Jumlah kolom: 37
 
@@ -71,6 +72,7 @@ Contoh 5 Baris Pertama:
     - 1 kolom dengan tipe objek (object)  yaitu kolom Status.
 
 **Kondisi Data**
+
     - Seluruh kolom telah terisi lengkap, tanpa missing value (null).
     - Kolom Status bertipe object dan diduga berfungsi sebagai target/label klasifikasi (misal: Graduate, Dropout, dsb)
 
@@ -96,7 +98,9 @@ lalu jalankan kode notebook dengan menggunakan google colab atau local environme
    - Menyimpan model ke dalam file .pkl dan .joblib
 
 **Menjalankan Dashboard Metabase :**
+
 **Dashboard dapat dijalankan melalui tautan yang ada pada bagian Business Dashboard**
+
 Gunakan kredensial login berikut untuk akses awal:
 - Email: root@mail.com
 - Password: root123
@@ -113,14 +117,17 @@ Dashboard ini dibuat untuk menganalisis data mahasiswa dan memantau faktor-fakto
 3. Tunggu hingga semua container berjalan dengan baik.
 
 4. **Akses dashboard** melalui link berikut:
+5. 
 **http://localhost:3000/public/dashboard/57519df1-23ec-4d76-bcdd-62e9b33fd291**
 
 (Jalankan Metabase via docker untuk melihat dashboard)
 Gunakan kredensial login berikut untuk akses awal:
+
 - Email: root@mail.com
 - Password: root123
 
 **Tujuan Dashboard**
+
 - Memberikan gambaran cepat mengenai status mahasiswa di institusi, seperti jumlah yang lulus, dropout, dan masih terdaftar.
 - Mengidentifikasi tren dan pola yang mempengaruhi status dropout siswa berdasarkan berbagai karakteristik (misal: nilai, gender, latar belakang, dsb).
 - Membantu pihak manajemen atau akademik dalam mengambil keputusan berbasis data untuk meningkatkan tingkat kelulusan dan menurunkan angka dropout.
@@ -185,9 +192,10 @@ Visualisasi pada dashboard menampilkan tren, distribusi, dan insight terkait fak
    (Pastikan Anda berada di direktori proyek yang berisi file `dashboard.py`)
 
 5. **Akses prototype sistem machine learning (Streamlit)** melalui link berikut di browser Anda:
-   [App Prediksi Streamlit](https://laskaraiawaw.streamlit.app/)
+   
+   [App Prediksi Dropout via Streamlit](https://laskaraiawaw.streamlit.app/)
 
-6. Setelah halaman Streamlit terbuka, Anda dapat menguji fitur prediksi status mahasiswa dengan memasukkan data yang diperlukan pada form yang tersedia di aplikasi Streamlit.
+7. Setelah halaman Streamlit terbuka, Anda dapat menguji fitur prediksi status mahasiswa dengan memasukkan data yang diperlukan pada form yang tersedia di aplikasi Streamlit.
 
 **Catatan:**  
 - Untuk menghentikan aplikasi, tekan `Ctrl+C` di terminal tempat Streamlit dijalankan.
